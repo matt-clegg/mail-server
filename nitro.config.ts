@@ -6,6 +6,7 @@ export default defineNitroConfig({
         asyncContext: true
     },
 
+    preset: "vercel",
     logLevel: 3,
 
     runtimeConfig: {
